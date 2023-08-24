@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cambiar Estilos y clases</h1>
+    </header>
+    <main class="tema">
+        <div class="content">
+            <div class="text-section">
+                <h2 class="texto" id="texto">Hola Mundo</h2>
+                <br>
+                <button class="button" id="botonCambiarEstilo">cambiar</button>
+            </div>
+        </div>
+        
+    </main>
+    <section>
+        
+       <img src="./Assets/img/cambiarestilos.png" alt="">
+       <article>
+        
+        <p>
+            Declaro una variable <strong>interruptor</strong>  que me servira a modo de switch para cambiar clases 
+            segun sea el valor true o false,tomo el nodo que tiene el texto al que quiero cambiar 
+            el estilo utilizando querySelector y tambien el nodo boton y lo referencio de la misma 
+            forma con las variables <strong>texto</strong>  y <strong>botoncambiarEstilo</strong>, decalro una funcion <strong>cambiarEstilo</strong> 
+            y añado un evenListener al boton referenciado, ahora según sea el caso si el valor de <strong>interruptor</strong>  
+            es false es porque no se ha presionado el boton y adiero una clase llamada nueva clase declarada
+            en mi archivo de estilos, de no presionarse el boton conservara la clase texto declarada en mi 
+            archivo de estilos, al presionar el boton el interruptor cambia de valor booleano para hacer 
+            cambio de clases.
+
+            <br>
+            <br>
+            <a href="index.html">ir al incio</a> 
+            
+        </p>
+       </article>
+    </section>
+   
+    <script src="js/cambiarEstilos.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+body {
+   background-color: rgb(256, 256, 256);
+}
+@font-face{
+ font-family:'Concert';
+ src: url(../Assets/fonts/Concert_One/ConcertOne-Regular.ttf);   
+}
+@font-face{
+    font-family:'Homebase';
+    src: url(../Assets/fonts/homebase/homebase.ttf);   
+   }
+header{
+ background-color: rgb(150, 88, 244);
+ position:absolute;
+ top: 1rem;
+ left: 0px;
+ right: 0px;
+ margin: auto;
+ display: flex;
+ flex-flow:wrap row;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ padding: 2px;
+ height: 3rem;
+ width: 80%;
+ border: solid 2px;
+ border-radius: 5px;
+ border-color:rgb(88, 244, 176);
+ box-shadow:5px 5px 10px #000;
+
+}
+header>h1{
+    color:#fff;
+    font-family: Concert;
+    font-weight: bolder;
+}
+
+main {
+    position:absolute;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    top: 7rem;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    padding: 5px;
+    width: 80%;
+    border: solid 2px #000;
+    border-radius: 5px;
+
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main h2{
+    color:rgb(88, 244, 176);
+    font-family: Concert;
+    margin: 15px;
+    text-shadow: #000 2px 2px 2px;
+}
+.parrafo{
+    color: #000;
+    font-family: Concert;
+}
+ul>li{
+    color: #000;
+    font-family: Concert;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    cursor:pointer;
+    color: #000;
+}
+.link:hover{
+    color:rgb(88, 244, 176) ;
+}
+footer{
+    background-color:rgb(150, 88, 244);
+    position:absolute;
+    bottom: 0rem;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: flex;
+    flex-flow:wrap row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2px;
+    height: 4rem;
+    width: 80%;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color:rgb(88, 244, 176);
+}
+footer>h1{
+    color:#fff;
+    font-family: Concert;
+    font-weight: bolder;
+}
+
+.input-section{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.text-section{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.tema input{
+    border: none;
+    border-bottom: solid 2px ;
+    height: 10px;
+    margin-right: 15px;
+    
+
+}
+.tema input:focus{
+    outline: none;
+}
+.button{
+    background-color:rgb(150, 88, 244);
+    border-radius: 3px;
+    border: solid 1px rgb(88, 244, 176);
+    color: #fff; 
+    height:30px;
+    box-shadow: 2px 2px 2px #000;
+    margin-top: 5px;
+}
+.button:hover{
+    background-color:rgb(185, 147, 244);
+}
+.button:active{
+    height:28px;
+    box-shadow: 1px 1px 1px #000;
+}
+#buttonReset{
+    margin-bottom: 40px;
+    background-color: rgb(88, 244, 176);
+}
+section{
+    position: absolute;
+    top: 18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 5px;
+    width: 80%;
+    height: 350px;
+    border: #000 solid 2px;
+    border-radius: 3px;
+    display: flex;
+}
+section img{
+    height: 340px;
+    width: 50%;
+    margin: 5px;
+}
+section article{
+    position:relative;
+    margin: 5px;
+    overflow-y: scroll;
+}
+.texto{
+    color:rgb(88, 244, 176);
+    background-color: black;
+    font-size: smaller;
+}
+.nuevaClase{
+    background: none;
+    color:rgb(150, 88, 244);
+    text-shadow: #000 3px 3px 3px;
+    font-family:Homebase;
+    font-size: 3rem;
+}
+.child{
+    background-color:rgb(88, 244, 176);
+    height: 100px;
+    width: 100px;
+    border:solid 2px #000;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}    

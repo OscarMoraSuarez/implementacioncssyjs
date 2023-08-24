@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cambiar texto</h1>
+    </header>
+    <main class="tema">
+        <div class="content">
+            <div class="input-section">
+                <input id="textoInput" type="text" placeholder="digite texto">
+                <br>
+                <button class="button" id="botonCambiarTexto">cambiar</button>
+            </div>
+            <div class="text-section">
+                <h2 id="texto"></h2>
+                <br>
+                <button class="button" id="buttonReset">Reset</button>
+            </div>
+        </div>
+        
+    </main>
+    <section>
+        
+       <img src="./Assets/img/cambiarTexto.png" alt="">
+       <article>
+        
+        <p>
+            Lo primero es tomar las referencias usando el querySelector, esto me permite tomar 
+            elementos del DOM y los referencio con variable,declaro un cadena con la variable <strong>textoDefault</strong> , 
+            y la  coloco como texto interno de la variable <strong>texto</strong>  que es un nodo h2, ahora simplemente uso
+            el boton que he declarado como <strong>botonCambiarTexto</strong>  y le asigno un evento con eventListener, para 
+            disparar una funcion llamada <strong>cambiarTexto</strong> ,cuando se ejecuta la funcion tomo la referencia de <strong>texto</strong> 
+            y le doy el valor de <strong>innerText=textoInput.value</strong>, es decir el valor del input de texto.
+            El boton de <strong>reset</strong>  hace los mismo pero poniendo el textoDefault como innerText.
+            <br>
+            <br>
+            <a href="index.html">ir al incio</a> 
+            
+        </p>
+       </article>
+    </section>
+   
+    <script src="js/cambiarTexto.js"></script>
+</body>
+</html>

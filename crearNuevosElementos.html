@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Crear Nuevo Elelmento</h1>
+    </header>
+    <main class="tema">
+        <div class="content">
+            <div class="input-section">
+                
+                <button class="button" id="crear">crear</button>
+            </div>
+            <div class="text-section">
+                
+            </div>
+        </div>
+        
+    </main>
+    <section>
+        
+       <img src="./Assets/img/nuevoElemento.png" alt="">
+       <article>
+        
+        <p>
+           Tomo las referencias del boton que activara la funcion crear <strong>botonCrear</strong>, y la referencia
+           del contenedor donde creare el nodo, los dos usando querySelector, no uso getElementById ni 
+           getElementByClassName porque estos dos pasan inevitablemente por querySelector, entonces 
+           despues de tomar las referencias declaro una funcion <strong>crearElemento</strong> con un if anidado que 
+           evalua  si <strong>interrupor</strong>  está en false, si asi es ningun elemento ha sido creado entonces la 
+           funcion declara una variable <strong>nuevoElemento</strong> donde creo y alamaceno un nuevo div, y por ultimo le 
+           doy estilos, si el elemento esta creado no se creara otro porque el interruptor se pone en true.
+            <br>
+            <br>
+            <a href="index.html">ir al incio</a> 
+            
+        </p>
+       </article>
+    </section>
+   
+    <script src="js/nuevoElemento.js"></script>
+</body>
+</html>
